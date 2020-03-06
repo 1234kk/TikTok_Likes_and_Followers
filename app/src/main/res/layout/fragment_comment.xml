@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:paddingBottom="20dp"
+    tools:context=".fragments.CommentFragment">
+
+
+    <!-- Get Comments Card -->
+    <androidx.cardview.widget.CardView
+        style="@style/card_widget_earnFragment"
+        app:contentPadding="16dp">
+
+        <LinearLayout style="@style/linear_layout_insideCardWidget_earnFragment">
+
+            <ImageView
+                style="@style/image_view_insideCardWidget_earnFragment"
+                android:src="@drawable/ic_heart_black_24dp" />
+
+            <TextView
+                style="@style/text_view_insideCardWidget_earnFragment"
+                android:text="Get Comments" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+    <!-- Comments List Card -->
+    <androidx.cardview.widget.CardView
+        style="@style/card_widget_earnFragment"
+        app:contentPadding="16dp">
+
+        <LinearLayout style="@style/linear_layout_insideCardWidget_earnFragment">
+
+            <ImageView
+                style="@style/image_view_insideCardWidget_earnFragment"
+                android:src="@drawable/ic_heart_black_24dp" />
+
+            <TextView
+                style="@style/text_view_insideCardWidget_earnFragment"
+                android:text="Comments List" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
