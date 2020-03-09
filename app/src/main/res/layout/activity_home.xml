@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+
+    <component name="AndroidLayouts">
+
+        <shared>
+
+            <config>
+
+                <target>android-29</target>
+            </config>
+        </shared>
+    </component>
+
+    <component name="ChangeListManager">
+
+        <list
+            name="Default Changelist"
+            comment=""
+            default="true"
+            id="f5ea7022-d69f-46f9-b917-f228601f2c1c">
+
+            <change
+                afterDir="false"
+                afterPath="$PROJECT_DIR$/app/.gitignore" />
+
+            <change
+                afterDir="false"
+                afterPath="$PROJECT_DIR$/app/build.gradle" />
+
+            <change
+                afterDir="false"
+                afterPath="$PROJECT_DIR$/app/proguard-rules.pro" />
+
+            <change
+                afterDir="false"
+                afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/asadchattha/tiktoklikesandfollowers/ExampleInstrumentedTest.java" />
+
+            <change
+                afterDir="false"
+                afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+
+            <change
+                afterDir="false"
+                afterPath="$PROJECT_DIR$/app/src/main/java/com/asadchattha/tiktoklikesandfollowers/activities/HomeActivity.java" />
+
+            <change
+                afterDir="false"
+                afterPath="$PROJECT_DIR$/app/src/main/java/com/asadchattha/tiktoklikesandfollowers/activities/MainActivity.java" />
+
+            <change
+                afterDir="false"
+                afterPath="$PROJECT_DIR$/app/src/main/java/com/asadchattha/tiktoklikesandfollowers/fragments/comment/CommentsListActivity.java" />
+
+            <change
+                afterDir="false"
+                afterPath="$PROJECT_DIR$/app/src/main/java/com/asadchattha/tiktoklikesandfollowers/fragments/comment/GetCommentsActivity.java" />
+
+            <change afterPath="$PROJECT_DIR$/app/src/main/java/com/asadchattha/tiktoklikesandf

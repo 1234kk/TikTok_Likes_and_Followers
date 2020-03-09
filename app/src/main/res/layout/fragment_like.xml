@@ -7,11 +7,12 @@
     android:background="@android:color/white"
     android:orientation="vertical"
     android:paddingBottom="20dp"
-    tools:context=".fragments.LikeFragment">
+    tools:context=".fragments.like.LikeFragment">
 
 
     <!-- Get Likes Card -->
     <androidx.cardview.widget.CardView
+        android:id="@+id/card_getLikes"
         style="@style/card_widget_earnFragment"
         app:contentPadding="16dp">
 
@@ -31,6 +32,7 @@
 
     <!-- Likes List Card -->
     <androidx.cardview.widget.CardView
+        android:id="@+id/card_likesList"
         style="@style/card_widget_earnFragment"
         app:contentPadding="16dp">
 

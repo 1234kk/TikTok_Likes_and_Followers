@@ -1,0 +1,77 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <!-- Full screen Theme-->
+    <style name="FullScreenTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--        <item name="colorPrimary">@android:color/transparent</item>-->
+        <!--        <item name="android:textColorPrimary">@android:color/white</item>-->
+        <item name="windowActionBarOverlay">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+
+    <!-- TextView Style inside CardView in Home Page -->
+    <style name="text_view_cardWidget">
+        <item name="android:textSize">17sp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:padding">6dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@android:color/holo_blue_dark</item>
+    </style>
+
+
+    <!-- LinearLayout style inside inner LinearLayout of CardWidget in {link@fragment_home}-->
+    <style name="linear_layout_insideCardWidget">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">#DAD9D9</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:padding">6dp</item>
+    </style>
+
+
+    <!-- Card Widget style inside {link@fragment_earn} -->
+    <style name="card_widget_earnFragment">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:elevation">6dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">82dp</item>
+        <item name="android:layout_margin">16dp</item>
+    </style>
+
+
+    <!-- LinearLayout style inside CardWidget {link@fragment_earn} -->
+    <style name="linear_layout_insideCardWidget_earnFragment">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <!-- ImageView style inside CardWidget {link@fragment_earn} -->
+    <style name="image_view_insideCardWidget_earnFragment">
+        <item name="android:layout_width">24dp</item>
+        <item name="android:layout_height">24dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+    </style>
+
+    <!-- TextView style inside CardWidget {link@fragment_earn} -->
+    <style name="text_view_insideCardWidget_earnFragment">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Title</item>
+    </style>
+
+</resources>

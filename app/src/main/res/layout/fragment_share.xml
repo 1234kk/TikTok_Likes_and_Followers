@@ -7,11 +7,12 @@
     android:background="@android:color/white"
     android:orientation="vertical"
     android:paddingBottom="20dp"
-    tools:context=".fragments.ShareFragment">
+    tools:context=".fragments.share.ShareFragment">
 
 
-    <!-- Get Likes Card -->
+    <!-- Get Share Card -->
     <androidx.cardview.widget.CardView
+        android:id="@+id/card_getShare"
         style="@style/card_widget_earnFragment"
         app:contentPadding="16dp">
 
@@ -23,15 +24,16 @@
 
             <TextView
                 style="@style/text_view_insideCardWidget_earnFragment"
-                android:text="Get Likes" />
+                android:text="Get Share" />
 
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 
 
-    <!-- Likes List Card -->
+    <!-- Share List Card -->
     <androidx.cardview.widget.CardView
         style="@style/card_widget_earnFragment"
+        android:id="@+id/card_shareList"
         app:contentPadding="16dp">
 
         <LinearLayout style="@style/linear_layout_insideCardWidget_earnFragment">
@@ -42,7 +44,7 @@
 
             <TextView
                 style="@style/text_view_insideCardWidget_earnFragment"
-                android:text="Likes List" />
+                android:text="Share List" />
 
         </LinearLayout>
     </androidx.cardview.widget.CardView>

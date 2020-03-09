@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+    <component name="AndroidLayouts">
+        <shared>
+            <config>
+                <target>android-29</target>
+            </config>
+        </shared>
+    </component>
+    <component name="ChangeListManager">
+        <list
+            name="Default Changelist"
+            comment=""
+            default="true"
+            id="f5ea7022-d69f-46f9-b917-f228601f2c1c">
+            <change
+                afterDir="false"
+                afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_play_button_balck_24dp.png" />
+            <change
+                afterDir="false"
+                afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_play_button_balck_24dp.png" />
+            <change
+                afterDir="false"
+                afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_play_button_balck_24dp.png" />
+            <change
+                afterDir="false"
+                afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_play_button_balck_24dp.png" />
+            <change
+                afterDir="false"
+                afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/ic_play_button_balck_24dp.png" />
+        </list>
+        <option
+            name="EXCLUDED_CONVERTED_TO_IGNORED"
+            value="true" />
+        <option
+            name="SHOW_DIALOG"
+            value="false" />
+        <option
+            name="HIGHLIGHT_CONFLICTS"
+            value="true" />
+        <option
+            name="HIGHLIGHT_NON_ACTIVE_CHANGELIST"
+            value="false" />
+        <option
+            name="LAST_RESOLUTION"
+            value="IGNORE" />
+    </component>
+    <component name="DefaultGradleProjectSettings">
+        <option
+            name="isMigrated"
+            value="true" />
+    </component>
+    <component
+        name="ExecutionTargetManager"
+        SELECTED_TARGET="192.168.99.106:5555" />
+    <component name="ExternalProjectsManager">
+        <system id="GRADLE">
+            <state>
+                <projects_view />
+            </state>
+        </system>
+    </component>
+    <component name="FileEditorManager">
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+            <file
+                current-in-tab="false"
+                pinned="false">
+                <entry file="file://$PROJECT_DIR$/app/src/main/java/com/asadchattha/tiktoklikesandfollowers/HomeActivity.java">
+                    <provider selected="true"

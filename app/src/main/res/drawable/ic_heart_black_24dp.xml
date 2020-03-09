@@ -1,0 +1,42 @@
+<?xml ve>
+<target>android-29</target></config>"><shared>
+<confi">
+rsion="1.0" encoding="<component name="AndroidLayoutsgUTF-8"?>
+<project
+    version="4</shared>
+  </component>
+  <component name="
+    ChangeListManager">
+    <list default="true" id="f5ea7022-d69f-46f9-b917-f228601f2c1c" name="Default Changelist"
+ comment="">
+<change
+    afterPath="$PROJECT_DIR$/app/.gitignore"
+    afterDir="false" />
+<change
+    afterPath="$PROJECT_DIR$/app/build.gradle"
+    afterDir="false" />
+<change
+    afterPath="$PROJECT_DIR$/app/proguard-rules.pro"
+    afterDir="false" />
+<change
+    afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/asadchattha/tiktoklikesandfollowers/ExampleInstrumentedTest.java"
+    afterDir="false" />
+<change
+    afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml"
+    afterDir="false" />
+<change
+    afterPath="$PROJECT_DIR$/app/src/main/java/com/asadchattha/tiktoklikesandfollowers/activities/HomeActivity.java"
+    afterDir="false" />
+<change
+    afterPath="$PROJECT_DIR$/app/src/main/java/com/asadchattha/tiktoklikesandfollowers/activities/MainActivity.java"
+    afterDir="false" />
+<change
+    afterPath="$PROJECT_DIR$/app/src/main/java/com/asadchattha/tiktoklikesandfollowers/fragments/comment/CommentsListActivity.java"
+    afterDir="false" />
+<change
+    afterPath="$PROJECT_DIR$/app/src/main/java/com/asadchattha/tiktoklikesandfollowers/fragments/comment/GetCommentsActivity.java"
+    afterDir="false" />
+<change
+    afterPath="$PROJECT_DIR$/app/src/main/java/com/asadchattha/tiktoklikesandfollowers/fragments/earn/DoCommentActivity.java"
+    afterDir="false" />
+<change afterPath="$PROJECT_DIR$/app/src/main/java/com/asadchattha/tikt

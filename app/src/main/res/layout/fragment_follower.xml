@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:paddingBottom="20dp"
+    tools:context=".fragments.earn.EarnFragment">
+
+
+    <!-- Get Followers Card -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_getFollowers"
+        style="@style/card_widget_earnFragment"
+        app:contentPadding="16dp">
+
+        <LinearLayout style="@style/linear_layout_insideCardWidget_earnFragment">
+
+            <ImageView
+                style="@style/image_view_insideCardWidget_earnFragment"
+                android:src="@drawable/ic_heart_black_24dp" />
+
+            <TextView
+                style="@style/text_view_insideCardWidget_earnFragment"
+                android:text="Get Followers" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+    <!-- Followers List Card -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_followersList"
+        style="@style/card_widget_earnFragment"
+        app:contentPadding="16dp">
+
+        <LinearLayout style="@style/linear_layout_insideCardWidget_earnFragment">
+
+            <ImageView
+                style="@style/image_view_insideCardWidget_earnFragment"
+                android:src="@drawable/ic_heart_black_24dp" />
+
+            <TextView
+                style="@style/text_view_insideCardWidget_earnFragment"
+                android:text="Followers List" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

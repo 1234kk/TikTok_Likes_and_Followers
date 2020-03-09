@@ -8,11 +8,12 @@
     android:background="@android:color/white"
     android:orientation="vertical"
     android:paddingBottom="20dp"
-    tools:context=".fragments.CommentFragment">
+    tools:context=".fragments.comment.CommentFragment">
 
 
     <!-- Get Comments Card -->
     <androidx.cardview.widget.CardView
+        android:id="@+id/card_getComments"
         style="@style/card_widget_earnFragment"
         app:contentPadding="16dp">
 
@@ -33,6 +34,7 @@
     <!-- Comments List Card -->
     <androidx.cardview.widget.CardView
         style="@style/card_widget_earnFragment"
+        android:id="@+id/card_commentsList"
         app:contentPadding="16dp">
 
         <LinearLayout style="@style/linear_layout_insideCardWidget_earnFragment">

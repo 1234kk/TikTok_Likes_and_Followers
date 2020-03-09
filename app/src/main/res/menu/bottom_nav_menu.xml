@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/navigation_earn"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="@string/title_earn" />
+
+    <item
+        android:id="@+id/navigation_Follower"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="@string/title_follower" />
+
+    <item
+        android:id="@+id/navigation_like"
+        android:icon="@drawable/ic_heart_black_24dp"
+        android:title="@string/title_like" />
+
+    <item
+        android:id="@+id/navigation_comment"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="@string/title_comment" />
+
+    <!--<item
+        android:id="@+id/navigation_share"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="@string/title_share" />-->
+
+</menu>

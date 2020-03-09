@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.asadchattha.tiktoklikesandfollowers">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".fragments.share.ShareListActivity"
+            android:label="Share List" />
+
+        <activity
+            android:name=".fragments.share.GetShareActivity"
+            android:label="Get Share" />
+        <activity
+            android:name=".fragments.comment.CommentsListActivity"
+            android:label="Comments List" />
+        <activity
+            android:name=".fragments.comment.GetCommentsActivity"
+            android:label="Get Comments" />
+        <activity
+            android:name=".fragments.like.LikesListActivity"
+            android:label="Likes List" />
+        <activity
+            android:name=".fragments.like.GetLikesActivity"
+            android:label="Get Likes" />
+        <activity
+            android:name=".fragments.follower.FollowersListActivity"
+            android:label="Followers List" />
+        <activity
+            android:name=".fragments.follower.GetFollowerActivity"
+            android:label="Get Followers" />
+        <activity
+            android:name=".fragments.earn.RateUsActivity"
+            android:label="Rate US" />
+        <activity
+            android:name=".fragments.earn.DoShareActivity"
+            android:label="Do Share" />
+        <activity
+            android:name=".fragments.earn.DoCommentActivity"
+            android:label="Do Comment" />
+        <activity
+            android:name=".fragments.earn.DoFollowingActivity"
+            android:label="Do Folowing" />
+        <activity
+            android:name=".fragments.earn.DoLikesActivity"
+            android:label="Do Likes" />
+        <activity
+            android:name=".fragments.earn.ScratchAndWinActivity"
+            android:label="Scratch and Win" />
+        <activity
+            android:name=".fragments.earn.WatchVideosActivity"
+            android:label="Watch Videos" />
+        <activity
+            android:name=".activities.HomeActivity"
+            android:label="@string/title_activity_home" /> <!-- Launcher Activity -->
+        <activity
+            android:name=".activities.MainActivity"
+            android:theme="@style/FullScreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
